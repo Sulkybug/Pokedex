@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="img/pokeball.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="boxOne">
+      <div class="boxCircles">
+        <div class="circle"></div>
+        <div class="smallCircleOne"></div>
+        <div class="smallCircleTwo"></div>
+        <div class="smallCircleThree"></div>
+      </div>
+      <div class="screen">
+        <div>
+          <span id="pokemon-name"></span>
+          <span id="pokemon-id"></span>
+        </div>
+        <div>
+          <span id="weight"></span>
+          <span id="height"></span>
+        </div>
+        <img id="sprite" alt="" />
+        <div id="types"></div>
+      </div>
+      <form action="submit">
+        <label for="search-input">Search for Pokemon Name or ID:</label>
+        <div class="lineInput">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Type here"
+            required
+          />
+          <button id="search-button">Search 🔎</button>
+        </div>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="option" value="1" checked id="default" />
+            <span class="custom-radio"></span>
+            <span class="radio-text">Default</span>
+          </label>
+          <label>
+            <input type="radio" name="option" value="2" id="shiny" />
+            <span class="custom-radio"></span>
+            <span class="radio-text">Shiny</span>
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="middle"></div>
+    <div class="boxTwo">
+      <div class="innerBoxTwo">
+        <div class="blueScreen">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="statsBox">
+          <table>
+            <tr>
+              <th>Base</th>
+              <th>Stats</th>
+            </tr>
+            <tr>
+              <td>HP:</td>
+              <td id="hp"></td>
+            </tr>
+            <tr>
+              <td>Attack:</td>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <td>Defense:</td>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <td>Sp. Attack:</td>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <td>Sp. Defense:</td>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <td>Speed:</td>
+              <td id="speed"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="containerBoxesLight">
+          <div class="boxWhites">
+            <div class="smallBoxWhite"></div>
+            <div class="smallBoxWhite"></div>
+          </div>
+          <div class="smallCircleTwo"></div>
+        </div>
+        <div class="blackBoxes">
+          <div class="smallBoxOne"></div>
+          <div class="smallBoxOne"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
