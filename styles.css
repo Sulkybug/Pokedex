@@ -193,11 +193,10 @@ button:hover {
   display: none;
 }
 
-/* Style the label to ensure proper alignment and row layout */
 .radio-group {
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: center; 
+  justify-content: flex-start;
   gap: 20px; /* Adjust space between buttons */
   margin-top: 20px;
   width: 100%;
@@ -209,21 +208,19 @@ button:hover {
   cursor: pointer;
 }
 
-/* Style the custom radio button */
 .custom-radio {
   display: inline-block;
-  width: 50px; /* Adjust size as needed */
+  width: 50px; 
   height: 50px;
   border-radius: 50%;
-  background-color: #2e0505; /* Nintendo button color */
+  background-color: #2e0505; 
   border: 3px solid #000;
   position: relative;
-  margin-right: 10px; /* Space between button and text */
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); /* Adds depth */
+  margin-right: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); 
   transition: background-color 0.3s;
 }
 
-/* Inner circle to represent button's "pressed" state */
 .custom-radio::after {
   content: "";
   display: block;
@@ -248,10 +245,9 @@ button:hover {
   background-color: green; /* Inner circle color when selected */
 }
 
-/* Style for the radio button text */
 .radio-text {
-  font-size: 16px; /* Adjust font size as needed */
-  color: #000; /* Text color */
+  font-size: 16px;
+  color: #000;
 }
 
 .middle {
@@ -497,14 +493,19 @@ label {
 
 input {
   font-size: 13px;
-  width: 60%;
+  width: 50%;
   height: 25px;
 }
 
 button {
   font-size: 13px;
+  padding: 5px 6px 5px 6px;
   height: 32px;
   width: 40%;
+}
+
+.radio-group {
+  margin-top: 10px;
 }
 
 .custom-radio {
@@ -546,7 +547,7 @@ button {
 
   .statsBox {
     width: 85%;
-    height: 40%;
+    height: 45%;
     overflow: scroll; /* Prevents content from overflowing */
   }
   
@@ -571,7 +572,7 @@ button {
   .blackBoxes{
     width: 80%;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -580,7 +581,7 @@ button {
     .containerBoxesLight{
       width: 70%;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     }
     
     .boxWhites{
