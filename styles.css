@@ -423,6 +423,11 @@ align-items: center;
     border-radius: 20px 20px 0px 0px;
   }
 
+  .boxCircles{
+    margin: 10px 0px 20px 0px;
+    align-items: center;
+  }
+
   .circle {
     height: 35px;
     width: 35px;
@@ -499,13 +504,14 @@ input {
 
 button {
   font-size: 13px;
-  padding: 5px 6px 5px 6px;
+  padding: 5px 5px 5px 5px;
   height: 32px;
-  width: 40%;
+  width: 45%;
 }
 
 .radio-group {
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .custom-radio {
